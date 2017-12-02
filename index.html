@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portland Doctor Search</title>
-    <link rel="stylesheet" href="build/css/vendor.css">
-    <script src="build/js/vendor.min.js"></script>
-    <script type="text/javascript" src="build/js/app.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <div class="container">
-     <h1>Find Doctors in Portland</h1>
-     <label for="issue">Enter a medical Issue:</label>
-     <input id="issue" type="text">
-     <button class="btn-success" id="doctorListByIssue">Get Doctor List!</button>
+<head>
+  <title>Portland Doctor Search</title>
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Find Doctors in Seattle</h1>
+    <div class="input1">
+      <h2>Find Doctors by medical issue:</h2>
+      <label for="userName">User Name:</label>
+      <input id="userName" type="text">
+      <br>
+      <label for="issue">Enter a medical Issue:</label>
+      <input id="issue" type="text">
+      <button class="btn-success" id="doctorListByIssue">Get Doctor List!</button>
+    </div>
+    <br>
+    <br>
+    <div class="input2">
+      <h2>Find Doctors by Name:</h2>
 
-     <div id="output">
-       Doctor's Name:
-       <div class="name"></div>
-       <!-- Visit Address:
-       <div class="city"></div>
-       <div class="state_long"></div>
-       <div class="street"></div>
-       <div class="street2"></div>
-       <div class="zip"></div>
-       Phone Number:
-       <div class="phoneNum"></div>
-       Visit the Website:
-       <div class="website"></div>
-       Accepting New Patients:
-       <div class="availability"></div> -->
+      <label for="docName1">Enter the Doctor's First Name:</label>
+      <input id="docName1" type="text">
+      <br>
+      <label for="docName2">Enter the Doctor's Last Name:</label>
+      <input id="docName2" type="text">
+      <button class="btn-success" id="doctorListByName">Get Doctor Details!</button>
+    </div>
 
-     </div>
+    <div id="output">
+      <div class="name"></div>
+      <div class="address"></div>
+      <div class="phoneNum"></div>
+      <div class="website"></div>
+      <div class="availability"></div>
+    </div>
 
-   </div>
-  </body>
+  </div>
+</body>
 </html>
