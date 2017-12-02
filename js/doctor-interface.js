@@ -18,7 +18,8 @@ $(document).ready(function(){
 });
 
   $('#doctorListByName').click(function() {
-    let docName1 = $('#docName2').val();
+    let docName1 = $('#docName1').val();
+    let docName2 = $('#docName2').val();
     doctorSearch.name(docName1, docName2);
     $('#docName1').val("");
     $('#docName2').val("");
