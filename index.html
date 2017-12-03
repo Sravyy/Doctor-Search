@@ -3,37 +3,45 @@
 <head>
   <title>Portland Doctor Search</title>
   <link rel="stylesheet" href="build/css/vendor.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <script src="build/js/vendor.min.js"></script>
   <script type="text/javascript" src="build/js/app.js"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="container">
+    <div class="jumbotron">
+      <h1>Seattle Doctor Search</h1>
+    </div>
+
     <h1>Find Doctors in Seattle</h1>
-    <div class="input1">
-      <h2>Find Doctors by medical issue:</h2>
-      <label for="userName">User Name:</label>
-      <input id="userName" type="text">
-      <br>
-      <label for="issue">Enter a medical Issue:</label>
-      <input id="issue" type="text" required>
-      <button class="btn-success" id="doctorListByIssue">Get Doctor List!</button>
-    </div>
+    <form class="input1">
+      <div class="form-group">
+        <h2>Find Doctors by Medical Condition:</h2>
+        <label for="userName">User Name:</label>
+        <input id="userName" type="text" >
+        <br>
+        <label for="issue">Enter a medical Issue:</label>
+        <input id="issue" type="text" placeholder="Example:cold" required>
+        <button class="btn-success" id="doctorListByIssue">Get Doctor List!</button>
+      </div>
+    </form>
     <br>
     <br>
-    <div class="input2">
-      <h2>Find Doctors by Name:</h2>
+    <form class="input2">
+      <div class="form-group">
+        <h2>Find Doctors by Name:</h2>
 
-      <label for="docName1">Enter the Doctor's First Name:</label>
-      <input id="docName1" type="text" required>
-      <br>
-      <label for="docName2">Enter the Doctor's Last Name:</label>
-      <input id="docName2" type="text">
-      <button class="btn-success" id="doctorListByName">Get Doctor Details!</button>
-    </div>
+        <label for="docName1">Enter the Doctor's First Name:</label>
+        <input id="docName1" type="text" required>
+        <br>
+        <label for="docName2">Enter the Doctor's Last Name:</label>
+        <input id="docName2" type="text">
+        <button class="btn-success" id="doctorListByName">Get Doctor Details!</button>
+      </div>
+    </form>
 
-    <div id="output">
-    </div>
+    <div id="output"></div>
 
   </div>
 </body>

@@ -32,7 +32,7 @@ doctorSearch.prototype.issue = function(issue){
 
         $("#output").append(`Doctor's Name: ${item.profile.first_name}  ${item.profile.last_name}`+ "<br>"+ `Visit Address: ${item.practices[0].visit_address.city}, ${item.practices[0].visit_address.state_long}, ${item.practices[0].visit_address.street}, ${item.practices[0].visit_address.street2}, ${item.practices[0].visit_address.zip}`+ "<br>" +`Website Link: ${item.practices[0].website}` + "<br>" + `Phone Number: ${item.practices[0].phones[0].number}` +"<br>"+ `Accepting New Patients: yes` +"<br>"+"<br>");
       } else {
-        $("#output").append(`Doctor's Name: ${item.profile.first_name}  ${item.profile.last_name}`+ "<br>"+ `Visit Address: ${item.practices[0].visit_address.city}, ${item.practices[0].visit_address.state_long}, ${item.practices[0].visit_address.street}, ${item.practices[0].visit_address.street2}, ${item.practices[0].visit_address.zip}`+ "<br>" +`Website Link: ${item.practices[0].website}` + "<br>" + `Phone Number: ${item.practices[0].phones[0].number}` +"<br>"+ `Accepting New Patients: yes` +"<br>"+"<br>");
+        $("#output").append(`Doctor's Name: ${item.profile.first_name}  ${item.profile.last_name}`+ "<br>"+ `Visit Address: ${item.practices[0].visit_address.city}, ${item.practices[0].visit_address.state_long}, ${item.practices[0].visit_address.street}, ${item.practices[0].visit_address.street2}, ${item.practices[0].visit_address.zip}`+ "<br>" +`Website Link: ${item.practices[0].website}` + "<br>" + `Phone Number: ${item.practices[0].phones[0].number}` +"<br>"+ `Accepting New Patients: No` +"<br>"+"<br>");
         }
     });
   };
@@ -70,7 +70,7 @@ doctorSearch.prototype.name = function(docName1, docName2){
 
         $("#output").append(`Doctor's Name: ${item.profile.first_name}  ${item.profile.last_name}`+ "<br>"+ `Visit Address: ${item.practices[0].visit_address.city}, ${item.practices[0].visit_address.state_long}, ${item.practices[0].visit_address.street}, ${item.practices[0].visit_address.street2}, ${item.practices[0].visit_address.zip}`+ "<br>" +`Website Link: ${item.practices[0].website}` + "<br>" + `Phone Number: ${item.practices[0].phones[0].number}` +"<br>"+ `Accepting New Patients: yes` +"<br>"+"<br>");
       } else {
-        $("#output").append(`Doctor's Name: ${item.profile.first_name}  ${item.profile.last_name}`+ "<br>"+ `Visit Address: ${item.practices[0].visit_address.city}, ${item.practices[0].visit_address.state_long}, ${item.practices[0].visit_address.street}, ${item.practices[0].visit_address.street2}, ${item.practices[0].visit_address.zip}`+ "<br>" +`Website Link: ${item.practices[0].website}` + "<br>" + `Phone Number: ${item.practices[0].phones[0].number}` +"<br>"+ `Accepting New Patients: yes` +"<br>"+"<br>");
+        $("#output").append(`Doctor's Name: ${item.profile.first_name}  ${item.profile.last_name}`+ "<br>"+ `Visit Address: ${item.practices[0].visit_address.city}, ${item.practices[0].visit_address.state_long}, ${item.practices[0].visit_address.street}, ${item.practices[0].visit_address.street2}, ${item.practices[0].visit_address.zip}`+ "<br>" +`Website Link: ${item.practices[0].website}` + "<br>" + `Phone Number: ${item.practices[0].phones[0].number}` +"<br>"+ `Accepting New Patients: No` +"<br>"+"<br>");
         }
     });
   };
