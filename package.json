@@ -36,5 +36,13 @@
   "dependencies": {
     "babel-core": "^6.26.0"
   },
-  "description": ""
+  "description": "_Seattle Doctor Search is a simple application that takes doctor's name or a medical condition and provide the list of doctors in seattle._",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sravyy/Doctor-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sravyy/Doctor-Search/issues"
+  },
+  "homepage": "https://github.com/Sravyy/Doctor-Search#readme"
 }

@@ -3,7 +3,7 @@
   "description": "",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/Sravyy/Doctor-Search",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,5 +15,8 @@
     "jquery": "^3.2.1",
     "bootstrap": "^3.3.7",
     "moment": "^2.19.3"
-  }
+  },
+  "authors": [
+    "sravanthi velaga <svelaga0412@gmail.com>"
+  ]
 }
